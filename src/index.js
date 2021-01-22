@@ -99,6 +99,9 @@ class App extends React.Component {
     const { data } = this.state;
     
     return (
+      <div>
+      <h1>TEST1</h1>
+      <h3>BADR EL ABBASSI , badr_elabbassi@um5.ac.ma</h3>
          <ReactTable
           data={data}
           filterable
@@ -126,6 +129,7 @@ class App extends React.Component {
             );
           }}
         />
+      </div>
     );
   }
 }
